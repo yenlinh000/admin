@@ -63,7 +63,7 @@ if(isset($_POST['add'])){
     <div class="table-responsive">
     <?php
 
-        $query = "SELECT * FROM songs";
+        $query = "SELECT * FROM product";
         $query_run = mysqli_query($conn, $query);
         
     ?>
