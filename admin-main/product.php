@@ -48,21 +48,6 @@ if(isset($_POST['add'])){
       }
 }      
  ?>
- <style type="text/css">
-   input{
-    border: none;
-    outline:none; 
-    width: 30%;
-  }
-  th, tr{
-    text-align: center;
-  }
-  input:hover[type="submit"] 
-    {
-      background: #3188ee;
-    }
-  
- </style>
  <div class="container-fluid">
   <div class="card shadow mb-4">
   <h6 class="m-0 font-weight-bold text-primary">Product Management</h6>
